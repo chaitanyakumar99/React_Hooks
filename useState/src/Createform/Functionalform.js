@@ -9,7 +9,6 @@ function Functionalform() {
         setInputfield({ [e.target.name]: e.target.value })
     }
 
-
     const submitform = (e) => {
         e.preventDefault();
         alert("sucess...!");

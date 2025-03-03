@@ -14,6 +14,7 @@ function Functionalform() {
         e.preventDefault();
         alert("sucess...!");
     }
+    
 
     return <div>
         <form onSubmit={submitform}>

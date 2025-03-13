@@ -15,7 +15,6 @@ function Functionalform() {
         alert("sucess...!");
     }
     
-
     return <div>
         <form onSubmit={submitform}>
 

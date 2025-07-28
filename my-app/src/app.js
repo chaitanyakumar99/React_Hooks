@@ -1,11 +1,11 @@
 import React from 'react'
-import Login from './Login/Login.jsx';
-const App = () => {
+import Functioncounter from './Component/Functionalcounter'
+
+const App=()=>{
     return <div>
-        <h2>App Component</h2>
-        <hr />
-        <Login />
+        <h1>App Component</h1>
+        <Functioncounter/>
     </div>
 }
 
-export default App
+export default App 
